@@ -53,7 +53,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
+            text='🙋 ℍ𝕖𝕪 𝔹𝕣𝕦𝕙!!\n𝕀 𝕒𝕞 𝕀𝕟𝕤𝕥𝕒𝕟𝕥 𝕋𝕖𝕝𝕖𝕘𝕣𝕒𝕞 𝔽𝕚𝕝𝕖 𝕥𝕠 𝕃𝕚𝕟𝕜 𝔾𝕖𝕟𝕖𝕣𝕒𝕥𝕠𝕣 𝔹𝕠𝕥.\n\n𝕊𝕖𝕟𝕕 𝕞𝕖 𝕒𝕟𝕪 𝕗𝕚𝕝𝕖 & 𝕤𝕖𝕖 𝕥𝕙𝕖 𝕞𝕒𝕘𝕚𝕔!',
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('🔊 Channel', url='https://t.me/Dads_links'), InlineKeyboardButton('👥  Support Group', url='https://t.me/Dads_links')],
@@ -123,7 +123,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.message_id)
 
-        msg_text = "Bruh! 😁\nYour Link Generated! 🤓\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}`"
+        msg_text = "𝔹𝕣𝕦𝕙! 😁\n𝕃𝕚𝕟𝕜 𝔾𝕖𝕟𝕖𝕣𝕒𝕥𝕖𝕕! 🤓\n\n📂 **𝔽𝕚𝕝𝕖 ℕ𝕒𝕞𝕖:** `{}`\n**𝔽𝕚𝕝𝕖 𝕊𝕚𝕫𝕖:** `{}`\n\n📥 **𝔻𝕠𝕨𝕟𝕝𝕠𝕒𝕕 𝕃𝕚𝕟𝕜:** `{}`"
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="Markdown",
@@ -172,7 +172,7 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        text="Send me any File I will provide External Direct Download Link!\n\nAlso I am Supported in Channels. Add me to Channel as Admin to Make Me Workable!",
+        text="𝕊𝕖𝕟𝕕 𝕞𝕖 𝕒𝕟𝕪 𝔽𝕚𝕝𝕖 𝕀 𝕨𝕚𝕝𝕝 𝕡𝕣𝕠𝕧𝕚𝕕𝕖 𝔼𝕩𝕥𝕖𝕣𝕟𝕒𝕝 𝔻𝕚𝕣𝕖𝕔𝕥 𝔻𝕠𝕨𝕟𝕝𝕠𝕒𝕕 𝕃𝕚𝕟𝕜!\n\n𝔸𝕝𝕤𝕠 𝕀 𝕒𝕞 𝕊𝕦𝕡𝕡𝕠𝕣𝕥𝕖𝕕 𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝𝕤. 𝔸𝕕𝕕 𝕞𝕖 𝕥𝕠 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 𝕒𝕤 𝔸𝕕𝕞𝕚𝕟 𝕥𝕠 𝕄𝕒𝕜𝕖 𝕄𝕖 𝕎𝕠𝕣𝕜𝕒𝕓𝕝𝕖!",
         parse_mode="Markdown",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
