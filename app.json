@@ -23,24 +23,31 @@
       },
       "APP_NAME": {
           "description": "Copy-Paste the app name that you just typed above."
+          "value": "dads-file-to-link"
       },
       "API_ID": {
           "description": "Get this value from https://my.telegram.org"
+          "value": "11868181"
       },
       "API_HASH": {
           "description": "Get this value from https://my.telegram.org"
+          "value": "4253e11b1e1d6406772492199b7f8942"
       },
       "BOT_TOKEN": {
           "description": "Get this value from @BotFather"
+          "value": "5194035356:AAEU0NLLjX_86zww1cSc6UAriTtxjs6Z_Hg"
       },
       "BIN_CHANNEL": {
           "description": "The BIN Channel ID. Read the readme for more info about this var"
+          "value": "-1001637332650"
       },
       "DATABASE_URL": {
           "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in Support Group: https://t.me/linux_repo"
+          "value": "mongodb+srv://DCMA:DCMA@cluster0.6m9bd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "OWNER_ID": {
           "description": "Your Telegram User ID"
+          "value": "1548525613"
       },
       "BANNED_CHANNELS": {
           "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
