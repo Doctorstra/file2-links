@@ -14,7 +14,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 ## 🚀 Railway Deployment
 ###### Click the button below to deploy on Railway!
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Doctorstra/file2-links&envs=API_ID,API_HASH,BOT_TOKEN)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Doctorstra/file2-links)
 
 ### Heroku web Server Sleeps after 30 minutes. You can Ping if to Keep it always Active. I am also doing same thing.  
 
