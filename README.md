@@ -12,6 +12,9 @@ The easiest way to deploy this Song Bot  <br><br>
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
 
+### Deploy on Railway
+
+[![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/deploy?template=https://github.com/Doctorstra/file2-links)
 
 ### Heroku web Server Sleeps after 30 minutes. You can Ping if to Keep it always Active. I am also doing same thing.  
 
