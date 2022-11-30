@@ -88,7 +88,7 @@
       }
   },
   "buildpacks": [{
-      "url": "heroku/python"
+      "url": "railway/python"
     }],
   "formation": {
       "web": {
