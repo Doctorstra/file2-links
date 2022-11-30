@@ -80,7 +80,7 @@
       },
       "FQDN": {
           "description": "Read the readme for more info about this var",
-          "required": false
+          "value": "dragonlinks.in"
       },
       "SESSION_NAME": {
           "description": "Any Session Name for Bot",
