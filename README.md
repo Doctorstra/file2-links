@@ -8,7 +8,7 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 ### Deploy to Heroku 🏃‍♂
 
 The easiest way to deploy this Song Bot  <br><br>
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Doctorstra/file2-links)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://render.com/deploy?repo=https://github.com/Doctorstra/file2-links)
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
 
