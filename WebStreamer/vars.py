@@ -20,11 +20,11 @@ class Var(object):
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     if 'DYNO' in environ:
-        ON_RAILWAY = True
+        ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
     else:
-        ON_RAILWAY = False
-    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_RAILWAY else APP_NAME+'.railway.com'
+        ON_HEROKU = False
+    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU else APP_NAME+'.HEROKU.com'
     DATABASE_URL = str(getenv('DATABASE_URL'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))
