@@ -1,7 +1,7 @@
-Pyrogram==1.4.16
-tgcrypto
-aiohttp
-python-dotenv
+Pyrogram==2.0.33
+tgcrypto==1.2.3
+aiohttp==3.8.1
+python-dotenv==0.20.0
 motor
 aiofiles
 dnspython
